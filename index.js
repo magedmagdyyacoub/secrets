@@ -236,6 +236,5 @@ passport.serializeUser((user, cb) => cb(null, user));
 passport.deserializeUser((user, cb) => cb(null, user));
 
 // 🚀 Start server
-app.listen(port, () => {
-  console.log(`✅ Server running on port ${port}`);
-});
+export default app;
+
